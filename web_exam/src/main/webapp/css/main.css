@@ -1,0 +1,144 @@
+main {
+    padding-left: 240px;
+    padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subject_box {
+    width: 300px;
+    height: 300px;
+    display:block;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    position:relative ;
+}
+
+
+.subject_box .top_box{
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+}
+.subject_box i {
+    position: absolute;
+    top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    right: 0px;
+    cursor: pointer;
+    width: 30px;
+} 
+.option_block {
+        /* width: 67px; */
+    /* height: 25px; */
+    position: absolute;
+    right: 25px;
+    border-radius: 10px;
+   
+    top: 10px;
+    /* background-color: white; */
+    z-index: 2;
+   
+ }
+.option_block a {
+ padding : 10px 10px;
+ color :white;
+ 
+ }
+.option_block a :hover {
+  	color : red;	
+  }
+
+.subject_box .top_box a {
+    font-size: 20px;
+    padding : 10px 5px 5px 15px;
+    display: block;
+    height: auto;
+    width: auto;
+    color: aliceblue;
+    display: inline-block;
+}
+.subject_box .top_box a:hover {
+    text-decoration: underline;
+    color: rgb(227, 125, 125);
+}
+.subject_box .top_box .author_name {
+    font-size: 15px;
+   
+    
+}
+.subject_box p {
+    margin-top: 100px;
+}
+.subject_box img {
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+
+.subject_box  p {
+    margin-left: 20px;
+}
+#add_class {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: antiquewhite;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 10px;
+    display: none;
+  
+}
+
+#add_class h3 {
+    
+    display: block;
+    padding : 10px 20px 10px 20px;
+    font-size: large;
+    font-weight: 550;
+    margin-left: 30%;
+}
+.box_add_Class {
+    padding : 20px 30px 20px 30px;
+    
+}
+#add_class textarea {
+    width: 90%;
+    border-radius: 10px;
+}
+.box_add_Class label {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box_add_Class input {
+    border-radius: 10px;
+    height: 30px;
+    width: 90%;
+}
+#add_class button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 38%;
+    background-color: aliceblue;
+    border: solid #AD171Ced 2px;
+    margin-top: 20px;
+}
+#add_class i {
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #AD171Ced;
+    font-size: 30px;
+
+}

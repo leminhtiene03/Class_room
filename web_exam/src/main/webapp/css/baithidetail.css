@@ -1,0 +1,133 @@
+#top_main_ele {
+    height: 60px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}
+main {
+    padding-left: 240px;
+    padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#top_main_ele p{
+    float: left;
+        display: inline;
+  text-align: center;
+  
+  text-decoration: none;
+  font-size: 17px;
+ line-height: 60px;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+#top_main_ele a{
+    float: left;
+        display: inline-block;
+  text-align: center;
+  width:100px;
+  text-decoration: none;
+  font-size: 17px;
+ line-height: 60px;
+ padding : 0px 20px;
+ 
+
+}
+
+.ok {
+	padding-left : 20px;
+	padding-right:20px;
+}
+#top_main_ele p:hover {
+    background-color: antiquewhite;
+    border-bottom: 3px solid blue;
+}
+#content_detail {
+    padding-left: 40px;
+    padding-top: 30px;
+    width:100% ;
+    position: relative;
+    z-index:0;
+}
+#content_detail_left {
+    width: 70%;
+    height: auto;
+}
+#content_detail_left i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin-right: 30px;
+}
+#content_detail_left h2 {
+    font-size: 30px;
+    color: aqua;
+    display: inline-block;
+    line-height: 50px;
+}
+#content_left_below {
+    padding-left: 80px;
+
+}
+#content_author {
+    font-size: 15px;
+    color: gray;
+}
+#top_name {
+    display: flex;
+    flex-direction: row;
+}
+#time_line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+#content_left_below span {
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgb(23, 119, 255);
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#content_right {
+    width:300px;
+   position: absolute;
+    right: 50px;
+    top: 30%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bar_right {
+    margin: 20px 10px 20px 10px;
+}
+#bar_right label {
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+  
+}
+#bar_right p {
+    display: inline;
+}
+#content_right  button{
+    height: 50px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+}

@@ -1,0 +1,78 @@
+
+header {
+    background-color: #AD171C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#filter {
+    margin-bottom: 20px;
+}
+
+#filter label {
+    margin-right: 10px;
+}
+
+#filter select {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+#customTableContent table {
+   width: 70%;
+   
+}
+#list_point {
+    padding: 30px 50px;
+    width: 100%;
+    position: relative;
+    display: none;
+}
+#filterCustomTable {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    border: #AD171C;
+    width: 300px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+}
+#filterCustomTable label {
+    font-size: 18px;
+    padding: 10px 10px;
+    display: block;
+    
+}
+#filterCustomTable button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border :1px solid #AD171C;
+    background-color: aqua;
+}
+#customTable {
+    font-size: 18px;
+}
+#customTable p {
+    padding: 5px 10px;
+}

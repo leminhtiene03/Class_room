@@ -1,0 +1,132 @@
+
+#class_name a {
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    color: aliceblue;
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+}
+#class_name a i {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+#p2 {
+    font-size: 20px;
+    line-height: 30px;
+   display: inline-block;
+}
+#add_class {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: antiquewhite;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 10px;
+    display: none;
+  
+}
+
+#add_class h3 {
+    
+    display: block;
+    padding : 10px 20px 10px 20px;
+    font-size: large;
+    font-weight: 550;
+    margin-left: 30%;
+}
+.box_add_Class {
+    padding : 10px 30px 10px 30px;
+    position: relative;
+    
+}
+#add_class textarea {
+    width: 90%;
+    border-radius: 10px;
+}
+.box_add_Class label {
+    font-size: 20px;
+   padding-left: 20px;
+    
+}
+.box_add_Class input {
+    border-radius: 10px;
+    height: 30px;
+    width: 90%;
+    padding-left: 20px;
+}
+#add_class button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 38%;
+    background-color: aliceblue;
+    border: solid #AD171Ced 2px;
+    margin-top: 20px;
+}
+#add_class i {
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #AD171Ced;
+    font-size: 30px;
+
+}
+
+#time_choose {
+    width: 70%;
+}
+#content_subject {
+    width: 80%;
+    margin-left: 10%;
+    display: block;
+    
+}
+#menu_option {
+    width: 120px;
+    border-radius: 10px;
+    height: auto;
+    position: absolute;
+    right:-120px;
+    top: 0;
+    background-color: aliceblue;
+    display: none;
+}
+#menu_option p {
+    text-align: center;
+    width: 100%;
+    margin:0;
+    
+}
+#menu_option p:hover {
+    background-color: #f46c71ed;
+}
+
+#content_people i {
+    padding-right: 20px;
+    line-height: 40px;
+    color: #AD171Ced;
+}
+#student_option {
+    position: absolute;
+   background-color: aqua;
+    height: auto;
+    right: -115px;
+    border-radius: 10px;
+    display: none;
+}
+#content_people li #student_option p{
+    font-size: 15px
+}
+#content_people li #student_option p:hover{
+    background-color: #AD171Ced;
+    color: aliceblue;
+}
+#content_people li {
+    position: relative;
+}

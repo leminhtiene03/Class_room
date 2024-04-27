@@ -1,0 +1,101 @@
+#top_bar {
+    width: 100%;
+    height: 65px;
+    background: #AD171C;
+}
+#top_bar p {
+    line-height: 65px;
+    font-size: 20px;
+    padding-left: 30px;
+    color: white;
+}
+#infor {
+    width: 250px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: fixed;
+    left: 20px;
+    top: 200px;
+    padding : 10px 20px;
+}
+#infor label {
+    width: 80px;
+    font-size: 15px;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+
+}
+#infor  p {
+    display: inline-block;
+    font-size: 185x;
+    padding: 5px 0;
+}
+#infor  span {
+    color: red;
+    font-size: 18px;
+}
+#container_exam {
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-right: 50px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid gray;
+ 
+}
+#container_exam button {
+   
+    width: 100px;
+    height: 50px;
+    background-color: #AD171C;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom:30px;
+    display: block;
+    margin-left: 45%;
+}
+#container_exam  h2 {
+    text-align: center;
+    color: #AD171C;
+    font-size: 25px;
+    padding: 10px;
+}
+.question {
+    width: 95%;
+    margin: 10px 30px;
+    font-size: 17px;
+    border: 1px solid red;
+}
+.question p {
+    margin: 10px 15px;
+    display: block;
+}
+.options {
+    width: 100%;
+}
+.options label {
+    width: 22%;
+    display: inline-block;
+    padding: 10px 0;
+}
+.options input {
+    font-size: 18px;
+}
+#answer {
+    width: 200px;
+    height:auto;
+   
+   
+    border-radius: 10px;
+
+}
+#answer p {
+    display: inline-block;
+    color: black;
+    line-height: 20px;
+    font-size: 15px;
+}

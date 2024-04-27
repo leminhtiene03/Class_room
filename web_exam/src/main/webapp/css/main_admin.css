@@ -1,0 +1,140 @@
+#add_class {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: antiquewhite;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 10px;
+    display: none;
+  
+}
+#fix_class {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: antiquewhite;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 10px;
+    display: none;
+  
+}
+#fix_class h3 {
+    display: block;
+    padding : 10px 20px 10px 20px;
+    font-size: large;
+    font-weight: 550;
+    margin-left: 30%;
+}
+#add_class h3 {
+    
+    display: block;
+    padding : 10px 20px 10px 20px;
+    font-size: large;
+    font-weight: 550;
+    margin-left: 30%;
+}
+#fix_class textarea {
+    width: 90%;
+    border-radius: 10px;
+}
+#fix_class button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 38%;
+    background-color: aliceblue;
+    border: solid #AD171Ced 2px;
+    margin-top: 20px;
+}
+.box_add_Class {
+    padding : 20px 30px 20px 30px;
+    
+}
+#add_class textarea {
+    width: 90%;
+    border-radius: 10px;
+}
+.box_add_Class label {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box_add_Class input {
+    border-radius: 10px;
+    height: 30px;
+    width: 90%;
+}
+#add_class button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 38%;
+    background-color: aliceblue;
+    border: solid #AD171Ced 2px;
+    margin-top: 20px;
+}
+#add_class i {
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #AD171Ced;
+    font-size: 30px;
+
+}
+#fix_class i {
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: #AD171Ced;
+    font-size: 30px;
+
+}
+#query {
+    position: absolute;
+    left: 34%;
+    top: 70px;
+
+    border-radius: 10px;
+    padding: 20px 30px;
+    overflow-y: scroll;
+    height: 500px;
+    display: none;
+}
+#query  li {
+    height: 30px;
+    font-size: 20px;
+    
+}
+#query h2 {
+    font-size: 25px;
+    color:aquamarine;
+}
+#query button {
+    padding: 3px 5px;
+    border-radius: 5px;
+    text-align: end;
+}
+#que_ry {
+  
+    background-color: #fff;
+    height: 42px;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: -70px;
+    border: none;
+    color: gray;
+    font-size: 18px;
+}
+#query span {
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
